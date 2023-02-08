@@ -9,9 +9,9 @@ $altura = 1.65;
 $fumante = true;
 
 echo $nome;
-echo "br";
+echo "<br>";
 echo $idade;
-echo "br";
+echo "<br>";
 echo $fumante;
 
 ?>
