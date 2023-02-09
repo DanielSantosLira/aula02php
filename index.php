@@ -40,7 +40,7 @@ echo "<h1>Operadores aritmético </h1>";
 
 
  echo "<h1>Operadores relacionais </h1>";
- 
+
  echo ($n1 > $n2 ). "<br>";
  echo ($n1 >= $n2 ). "<br>";
  echo ($n1 < $n2 ). "<br>";
@@ -48,6 +48,9 @@ echo "<h1>Operadores aritmético </h1>";
  echo ($n1 != $n2 ). "<br>";
  echo ($n1 == $n2 ). "<br>";
  
+ echo "<h1>Operadores lógico </h1>";
  
-
+ echo (20>10 ) && (10>5); 
+ echo "<br>";
+ echo (20>10) || (10>15); 
 ?>
